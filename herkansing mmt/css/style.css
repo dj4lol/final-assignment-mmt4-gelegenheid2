@@ -1,0 +1,531 @@
+header {
+    width: 100%
+}
+
+
+/* nav balk */
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+}
+
+ul {
+    float: right;
+    margin-top: 40px;
+    margin-right: 15%;
+}
+
+nav ul li {
+    float: left;
+    font-size: 1em;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #FFAFE3;
+    margin-left: 70px;
+}
+
+
+/* Slideshow */
+
+.slideshow-container {
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.slideshow-container img {
+    width: 100%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#gradient {
+    background-image: linear-gradient(90deg, rgba(255, 175, 227, 0.7), rgba(0, 118, 255, 0.7));
+    opacity: 30%;
+    z-index: 1;
+}
+
+.textheader {
+    z-index: 110;
+    margin-top: 50px;
+}
+
+.textheader img {
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 50px;
+}
+
+.introdruction {
+    float: left;
+    font-weight: bold;
+    max-width: 700px;
+    color: white;
+    margin-top: 50px;
+}
+
+.introdruction h1 {
+    font-family: "Playfair Display";
+    font-size: 3.5em;
+}
+
+.introdruction p {
+    font-family: "montserrat";
+    font-size: 1.375em;
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
+
+#container {
+    max-width: 1088px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+​ h2 {
+    font-family: 'Montserrat-bold';
+    font-size: 0.875em;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#container h3 {
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #FFAFE3;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+​ h2 {
+    font-family: 'Montserrat-bold';
+    font-size: 0.875em;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+/* video */
+
+.player-btn {
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    padding: 15px 30px;
+    background: #0076FF;
+    color: #FFAFE3;
+    border-radius: 2px;
+}
+
+#player {
+    width: 100%;
+    max-height: 509px;
+}
+
+.videocontainer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 903px;
+}
+
+#buttonsVideo {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 203px;
+}
+
+
+/* portofolio  */
+
+#portofolio {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.work {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 8px;
+}
+
+.work img {
+    width: 300px;
+    height: 300px;
+}
+
+.imgtekst {
+    margin-left: 10px;
+}
+
+.work:hover .overlayhover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.buttontags {
+    border: none;
+    width: 127px;
+    height: 41px;
+    background-color: #FFAFE3;
+    border-radius: 6px;
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 0.563em;
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.overlayhover {
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 118, 255, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+    line-height: 53px;
+}
+
+.more {
+    margin: 0 auto;
+    width: 180px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+.more button {
+    margin: 0 auto;
+    font-size: 1em;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #FFAFE3;
+    border: none;
+    background: #0076FF;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0076FF;
+    width: 100%;
+    text-align: center;
+}
+
+footer h5 {
+    font-family: "Playfair Display";
+    font-size: 3.5em;
+    color: #FFAFE3;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.form-container h5 {
+    color: black;
+    font-family: "Playfair Display";
+    font-size: 1em;
+    padding-top: 0;
+}
+
+.open-button {
+    background-color: #FFAFE3;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 23px;
+    width: 280px;
+}
+
+.form-popup {
+    display: none;
+    border: none;
+    position: relative;
+    bottom: 0;
+    margin-left: 40%;
+    z-index: 9;
+    padding-bottom: 50px;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    color: #FFAFE3
+}
+
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 250px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #0076FF;
+    color: #FFAFE3;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: #0076FF;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+
+/* onpage */
+
+.uitleg {
+    font-family: "montserrat";
+    font-size: 1.375em;
+    color: white;
+    margin: 100px;
+    padding-bottom: 100px;
+}
+
+.p5sliders h5 {
+    font-size: 1em;
+    font-family: Montserrat;
+    color: #FFAFE3;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#showtext h4 {
+    font-size: 0.8em;
+    font-family: Montserrat;
+    color: #FFAFE3;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#showtext img {
+    width: 200px;
+    height: auto;
+    margin-left: 35%
+}
+
+canvas {
+    margin: 0 auto;
+    margin-top: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#showtext {
+    display: none;
+}
+
+.p5sliders {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.clear {
+    float: both;
+}
+
+
+/* clear */
+
+.clear {
+    clear: both;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:1100px) {
+    .textheader img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 168px;
+        width: 168px;
+        border-radius: 50%;
+        float: none;
+    }
+    .introdruction {
+        margin-left: 15%;
+    }
+    .thumbnails img {
+        width: 275px;
+    }
+    #portofolio {
+        display: block;
+        margin: 0 auto;
+        max-width: 632px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .p5sliders {
+        display: none;
+    }
+    canvas {
+        display: none;
+    }
+    #showtext {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        position: relative;
+        height: 100px;
+        width: 100%;
+        z-index: 100;
+        text-align: center;
+    }
+    nav ul {
+        float: none;
+        margin: 0 auto;
+    }
+    nav ul li {
+        float: left;
+        font-size: 0.8em;
+        font-family: Montserrat;
+        font-weight: bold;
+        color: #FFAFE3;
+        margin-top: 25px;
+    }
+    #container {
+        width: 100%;
+        ;
+    }
+    .textheader {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .textheader img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+        height: 168px;
+        width: 168px;
+        border-radius: 50%;
+        margin: 0 auto;
+        float: none;
+    }
+    .introdruction {
+        margin-left: 0%;
+    }
+    .introdruction h1 {
+        float: left;
+        font-family: "Playfair Display";
+        font-weight: bold;
+        font-size: 2em;
+        color: white;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .introdruction p {
+        float: left;
+        font-family: "montserrat";
+        font-weight: bold;
+        font-size: 0.8em;
+        color: white;
+        margin-top: 50px;
+        width: 100%;
+        ;
+    }
+    #portofolio {
+        display: block;
+        margin: 0 auto;
+        max-width: 316px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .introdruction h1 {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .introdruction p {
+        margin-top: 50px;
+        width: 100%;
+    }
+}

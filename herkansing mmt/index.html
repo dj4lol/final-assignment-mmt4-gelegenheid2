@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <div id="gradient">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="img/headerimg@2x.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/headerimg@2x.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/headerimg@2x.jpg">
+                </div>
+
+
+
+                <div style="display:none;">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="textheader">
+                <img src="img/giorgio@2x.jpg">
+                <div class="introdruction">
+                    <h1>
+                        Hi, my name is Vincent <br> I code and design cool stuff
+                    </h1>
+                    <p>
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+
+
+    </header>
+
+
+    <main>
+
+        <div id="container">
+
+            <div class="videocontainer">
+                <video id="player" class="video-js" controls>
+                        <source src="video/Awwwards Brand Refresh - Celebrating Simplicity.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+
+            </div>
+            <div id="buttonsVideo">
+                <a href="#" id="rewind" class="player-btn">Rewind</a>
+                <a href="#" id="play" class="player-btn">Play</a>
+            </div>
+
+            <h3> featured portfolio </h3>
+
+            <div id="portofolio">
+
+                <div class="work">
+                    <img src="img/portfolio1@2x.jpg">
+                    <div class="overlayhover" alt="">
+                        <p class="imgtekst">Digital Thinkers Conference</p>
+
+                        <button class="buttontags" id="button1">#client</button>
+                        <button class="buttontags" id="button1">#design</button>
+                        <button class="buttontags" id="button1">#code</button>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/portfolio2@2x.jpg" alt="">
+                    <div class="overlayhover">
+                        <p class="imgtekst">Patsy Library Books</p>
+
+                        <button class="buttontags" id="button1">#personal</button>
+                        <button class="buttontags" id="button1">#design</button>
+                        <button class="buttontags" id="button1">#insperation</button>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/portfolio3@2x.jpg" alt="">
+                    <div class="overlayhover">
+                        <p class="imgtekst">Table Desing</p>
+
+                        <button class="buttontags" id="button1">#client</button>
+                        <button class="buttontags" id="button1">#design</button>
+                        <button class="buttontags" id="button1">#code</button>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <a href="onepage.html">
+
+                        <img src="img/portfolio4@2x.jpg" alt="">
+                        <div class="overlayhover">
+                            <p class="imgtekst">P5 Sketch</p>
+
+                            <button class="buttontags" id="button1">#client</button>
+                            <button class="buttontags" id="button1">#design</button>
+                            <button class="buttontags" id="button1">#code</button>
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work">
+                    <img src="img/portfolio5@2x.jpg" alt="">
+                    <div class="overlayhover">
+                        <p class="imgtekst">Arts & Crafts Conference</p>
+
+                        <button class="buttontags" id="button1">#personal</button>
+                        <button class="buttontags" id="button1">#design</button>
+                        <button class="buttontags" id="button1">#insperation</button>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/portfolio6@2x.jpg" alt="">
+                    <div class="overlayhover">
+                        <p class="imgtekst">Fishing Museum</p>
+
+                        <button class="buttontags" id="button1">#personal</button>
+                        <button class="buttontags" id="button1">#design</button>
+                        <button class="buttontags" id="button1">#insperation</button>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+
+            <div class="more">
+                <button>
+                        <a href="#" id="btn">more portifolio</a>
+            </button>
+            </div>
+        </div>
+
+        </div>
+
+
+    </main>
+
+
+    <footer>
+
+        <h5>What can I do for you?<br>Let’s get in touch</h5>
+
+        <button class="open-button" onclick="openForm()">CONTACT</button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h5>Login</h5>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+    </footer>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
+    <script src="js/p5.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
